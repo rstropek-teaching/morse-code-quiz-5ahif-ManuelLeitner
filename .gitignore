@@ -3,3 +3,10 @@
 ################################################################################
 
 /.vs/Morse
+/Morse.ConsoleApp/obj
+/Morse.Library/.vs/Morse.Library/v15
+/Morse.Library/obj
+/Morse.Tests/obj
+/Morse.ConsoleApp/bin/Debug/netcoreapp2.0
+/Morse.Tests/bin/Debug/netcoreapp2.0
+/Morse.Library/bin/Debug/netcoreapp2.0
