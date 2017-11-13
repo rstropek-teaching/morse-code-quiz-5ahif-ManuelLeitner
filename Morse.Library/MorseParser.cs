@@ -3,6 +3,10 @@ using System.IO;
 using System.Text;
 
 namespace Morse.Library {
+
+    /// <summary>
+    /// static class with methodes for parsing morse-code
+    /// </summary>
     public class MorseParser {
 
         private static char[] hash = new char[243];

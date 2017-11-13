@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Morse.Library</name>
+    </assembly>
+    <members>
+        <member name="T:Morse.Library.MorseParser">
+            <summary>
+            static class with methodes for parsing morse-code
+            </summary>
+        </member>
+        <member name="M:Morse.Library.MorseParser.Parse(System.IO.TextReader,System.IO.TextWriter)">
+            <summary>
+            reads the morse-text from <paramref name="input"/>, parses it and writes the result to
+            <paramref name="output"/>
+            </summary>
+            <param name="input"></param>
+            <param name="output"></param>
+        </member>
+        <member name="M:Morse.Library.MorseParser.Parse(System.String,System.String)">
+            <summary>
+             reads the morse-text from a file specified by <paramref name="inputPath"/>, parses it 
+             and writes the result to the file specified by <paramref name="outputPath"/>
+            </summary>
+            <param name="inputPath"></param>
+            <param name="outputPath"></param>
+        </member>
+        <member name="M:Morse.Library.MorseParser.Parse(System.String)">
+            <summary>
+            parses <paramref name="text"/> and returns it
+            </summary>
+            <param name="text"></param>
+            <returns>plain-text</returns>
+        </member>
+        <member name="M:Morse.Library.MorseParser.Parse(System.Func{System.Int32},System.Action{System.Char})">
+            <summary>
+            parses morse-text inputed through <paramref name="read"/> char by char and passes it to <paramref name="write"/> char by char
+            </summary>
+            <param name="read"></param>
+            <param name="write"></param>
+        </member>
+    </members>
+</doc>

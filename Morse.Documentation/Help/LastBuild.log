@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2017.5.15.0" projectFile="G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Morse.Documentation.shfbproj" started="13.11.2017 11:24:41">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Markdown&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown&#39;
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Library\bin\Debug\netcoreapp2.0\Morse.Library.dll
+    Found assembly &#39;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Library\bin\Debug\netcoreapp2.0\Morse.Library.dll&#39;
+Source: G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Library\bin\Debug\netcoreapp2.0\Morse.Library.xml
+
+References to include (excluding framework assemblies):
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Library\bin\Debug\netcoreapp2.0\Morse.Library.dll
+
+Copying XML comments files
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Library\bin\Debug\netcoreapp2.0\Morse.Library.xml -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Morse.Library.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+    Last step completed in 00:00:00,0140
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0050
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 13.11.2017 11:24:42.
+Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  MRefBuilder (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 52 dependency assemblies.
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Runtime.Extensions (System.Runtime.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Morse.Library [G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\GenerateRefInfo.proj]
+  Wrote information on 1 namespaces, 1 types, and 5 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:02,0140
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 13.11.2017 11:24:44.
+Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:00,6620
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0130
+</buildStep>
+<buildStep step="CopyConceptualContent">
+Copying conceptual content...
+Copying standard token shared content file...
+Checking for other token files...
+Checking for code snippets files...
+Copying images and creating the media map file...
+Generating conceptual topic files
+    Parsing topic file &#39;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\Welcome.aml&#39;
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\Welcome.aml -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\ddueXml\ee568bca-4c55-4ad8-8ffd-3cd10c00415d.xml
+    Parsing topic file &#39;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\VersionHistory\VersionHistory.aml&#39;
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\VersionHistory\VersionHistory.aml -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\ddueXml\e0c7e72e-acab-49bb-980c-a52b551d888d.xml
+    Parsing topic file &#39;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\VersionHistory\v1.0.0.0.aml&#39;
+    G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Content\VersionHistory\v1.0.0.0.aml -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\ddueXml\0f09cf60-f559-49f3-9bb3-f078a930d66a.xml
+    Last step completed in 00:00:00,0600
+</buildStep>
+<buildStep step="CreateConceptualTopicConfigs">
+Creating conceptual topic configuration files...
+    Companion files
+    _ContentMetadata_.xml
+    Merging topic IDs into manifest.xml
+    Last step completed in 00:00:00,0430
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\icons\Help.png -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\icons\Help.png
+    Last step completed in 00:00:00,0600
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0040
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 13.11.2017 11:24:45.
+Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,2920
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,1250
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  Updating conceptual topic configurations.
+    Removing unused ExampleComponent.
+    Last step completed in 00:00:00,0060
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 13.11.2017 11:24:45.
+Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2017.5.15.0)
+  Copyright &#184; 2006-2017, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2016, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:Morse.Library] Missing &lt;summary&gt; documentation [G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\BuildTopics.proj]
+  Processed 12 topic(s)
+  1 warning(s)
+  CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
+  ResolveArtLinksComponent: Copying media files...
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Done Building Project &quot;G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:06,0020
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertCaution.png -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertNote.png -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\AlertSecurity.png -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CFW.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\CodeExample.png -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privclass.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privdelegate.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privenumeration.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privevent.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privextension.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privfield.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privinterface.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privmethod.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privproperty.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\privstructure.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protclass.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protdelegate.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protenumeration.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protevent.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protextension.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protfield.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protinterface.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protmethod.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protoperator.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protproperty.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\protstructure.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubclass.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubdelegate.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubenumeration.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubevent.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubextension.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubfield.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubinterface.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubmethod.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\puboperator.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubproperty.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\pubstructure.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\slMobile.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\static.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\media\xna.gif -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\media\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\Markdown\MarkdownContent\_Footer.md -&gt; G:\5. Klasse\POSE\C_Sharp\Morse-Code-Quiz\Morse.Documentation\Help\Working\Output\Markdown\_Footer.md
+    Last step completed in 00:00:00,1840
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Executing informational Generate Table of Contents build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateHelpProject">
+Executing informational Generate Help Project build step for plug-ins (not used for Markdown)
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="CompilingHelpFile">
+Generating markdown content...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe - GenerateMarkdownContent.proj]
+  Finished generating 12 topics
+  Copying content to output folder...
+  Finished copying 56 files
+    Last step completed in 00:00:00,5506
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0220
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 13.11.2017 11:24:52.  Total time: 00:00:11,4447
+
+</buildStep>
+</shfbBuild>

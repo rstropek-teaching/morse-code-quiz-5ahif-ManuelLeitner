@@ -20,13 +20,14 @@ namespace Morse.Tests {
 
         [DataTestMethod]
         [Timeout(50)]
+        [DataRow("in1.txt", "sol1.txt")]
         [DataRow("in2.txt", "sol2.txt")]
         [TestMethod]
         [Ignore("only successful on powerful machines")]
         public void TestSpeed(string inputPath, string solPath) {
-                using (StreamReader insr = new StreamReader(inputPath))
-                using (StreamReader solsr = new StreamReader(solPath))
-                    MorseParser.Parse(insr.Read, (char c) => Assert.AreEqual(solsr.Read(), c));
+            using (StreamReader insr = new StreamReader(inputPath))
+            using (StreamReader solsr = new StreamReader(solPath))
+                MorseParser.Parse(insr.Read, (char c) => Assert.AreEqual(solsr.Read(), c));
         }
 
         [DataTestMethod]
