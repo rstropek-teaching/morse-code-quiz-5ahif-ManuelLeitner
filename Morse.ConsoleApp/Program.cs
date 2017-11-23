@@ -1,7 +1,6 @@
 ﻿using Morse.Library;
 using System;
 
-
 namespace Morse.ConsoleApp {
     public class Program {
         public static void Main(string[] args) {

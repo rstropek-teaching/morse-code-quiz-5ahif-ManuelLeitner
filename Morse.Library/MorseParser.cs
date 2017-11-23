@@ -5,9 +5,9 @@ using System.Text;
 namespace Morse.Library {
 
     /// <summary>
-    /// static class with methodes for parsing morse-code
+    /// Static class with methodes for parsing morse-code
     /// </summary>
-    public class MorseParser {
+    public static class MorseParser {
 
         private static char[] hash = new char[243];
 
@@ -48,11 +48,10 @@ namespace Morse.Library {
             hash[38] = '8';
             hash[46] = '9';
             hash[62] = '0';
-
         }
 
         /// <summary>
-        /// reads the morse-text from <paramref name="input"/>, parses it and writes the result to
+        /// Reads the morse-text from <paramref name="input"/>, parses it and writes the result to
         /// <paramref name="output"/>
         /// </summary>
         /// <param name="input"></param>
@@ -61,9 +60,8 @@ namespace Morse.Library {
             Parse(input.Read, output.Write);
         }
 
-
         /// <summary>
-        ///  reads the morse-text from a file specified by <paramref name="inputPath"/>, parses it 
+        ///  Reads the morse-text from a file specified by <paramref name="inputPath"/>, parses it 
         ///  and writes the result to the file specified by <paramref name="outputPath"/>
         /// </summary>
         /// <param name="inputPath"></param>
@@ -72,11 +70,10 @@ namespace Morse.Library {
             using (StreamReader isr = new StreamReader(inputPath, Encoding.Default, false, 4096))
             using (StreamWriter osw = new StreamWriter(outputPath, false, Encoding.Default, 4096))
                 Parse(isr, osw);
-
         }
 
         /// <summary>
-        /// parses <paramref name="text"/> and returns it
+        /// Parses <paramref name="text"/> and returns it
         /// </summary>
         /// <param name="text"></param>
         /// <returns>plain-text</returns>
@@ -88,7 +85,7 @@ namespace Morse.Library {
         }
 
         /// <summary>
-        /// parses morse-text inputed through <paramref name="read"/> char by char and passes it to <paramref name="write"/> char by char
+        /// Parses morse-text inputed through <paramref name="read"/> char by char and passes it to <paramref name="write"/> char by char
         /// </summary>
         /// <param name="read"></param>
         /// <param name="write"></param>
@@ -97,17 +94,20 @@ namespace Morse.Library {
             while ((c = read()) > 0) {
                 if (c == ' ') {
                     char res = hash[number];
-                    if (res == 0)
+                    if (res == 0) {
                         throw new FormatException("wrong morse pattern");
+                    }
 
                     write(res);
                     int count = 1;
-                    while (count < 5 && (c = read()) == ' ')
+                    while (count < 5 && (c = read()) == ' ') {
                         count++;
-                    if (count == 4)
+                    }
+                    if (count == 4) {
                         write(' ');
-                    else if (count != 1)
+                    } else if (count != 1) {
                         throw new FormatException("wrong number of spaces " + count);
+                    }
                     pow = 1;
                     number = 0;
                 }
@@ -118,9 +118,9 @@ namespace Morse.Library {
                 } else if (c == '-') {
                     number += pow * 2;
                     pow *= 2;
-                } else if (c != -1)
+                } else if (c != -1) {
                     throw new FormatException("invalid character " + c);
-
+                }
             }
         }
     }

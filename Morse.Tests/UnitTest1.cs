@@ -6,7 +6,7 @@ using System.Threading;
 
 namespace Morse.Tests {
     [TestClass]
-    public class UnitTest1 {
+    public class UnitTest {
 
         [DataTestMethod]
         [DataRow("in1.txt", "sol1.txt")]
